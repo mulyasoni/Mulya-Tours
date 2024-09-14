@@ -1,0 +1,139 @@
+.first-con {
+  height: 100vh;
+}
+
+.first-con ul li a {
+    color: black;
+}
+
+.first-con ul {
+    /* border: 2px solid red; */
+    gap: 50px !important;
+}
+
+.first-con nav{
+    /* border: 2px solid red; */
+    background: transparent;
+}
+
+.btn-fmb{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .2s all linear;            
+}
+
+.btn-fmb:hover{
+    background-color: black;
+    color: white;
+    transition: .2s all linear;            
+
+}
+
+.redborder{
+    border: 2px solid red;
+}
+
+.top-start{
+    border: 2px solid grey;
+    border-radius: 25px;
+    height: 300px;
+}
+
+.top-start:hover{
+    background-color: skyblue;
+    color: black;
+    transition: .5s all linear;
+}
+
+.img-left{
+    background-image: url(Eiffel-tower-356113.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 450px;
+    background-position: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.second-con{
+    height: 100vh;
+}
+
+.left{
+    height: 100%;
+}
+
+.right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;align-items: center;
+    justify-content: center;
+}
+
+.img-right-top{
+    height: 70%;
+    border: 2px solid black;
+    width: 40%;
+    background-image: url(palace.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+
+.img-left-top{
+    height: 70%;
+    border: 2px solid black;
+    width: 40%;
+    background-image: url(balloon.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.img-top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-bottom{
+    height: 50%;
+    width: 100%;
+    padding-top: 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.img{
+    background-image: url(tm.jpeg);
+    background-size: cover;
+    height: 250px;
+    width: 550px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.div{
+    transition: .5s all linear;
+
+}
+
+.div:hover{
+    background-color: black;
+    color: white;
+    transition: .5s all linear;
+}
+
